@@ -3,9 +3,9 @@ os: linux
 
 files:
   - source: /awspipelinedemo.war
-    destination: /home/ec2-user/tomcat/apache-tomcat-8.5.61/webapps/
+    destination: /opt/tomcat/apache-tomcat-9.0.56/webapps/
   - source: /TestXMLFile.xml
-    destination: /home/ec2-user/tomcat/apache-tomcat-8.5.61/webapps/
+    destination: /opt/tomcat/apache-tomcat-9.0.56/webapps/
     
 hooks:
   AfterInstall:
