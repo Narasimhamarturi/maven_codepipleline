@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo systemctl restart tomcat9
+sudo systemctl restart tomcat
